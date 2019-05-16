@@ -1,0 +1,25 @@
+
+/////////   FOOTER 
+
+.region-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1.5em;
+    padding-left: 5.5em;
+    background-color: $color-grey-light;
+    margin-top: 1em;
+
+    a{
+        color:$color-grey !important;
+        &:hover{ color:#000 !important;}
+      }
+    
+}
+
+#block-footercreated {
+    margin-top: 2em;
+    margin-right: 5em;
+    
+}

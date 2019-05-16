@@ -1,0 +1,75 @@
+/////////   HEADER  
+
+
+.region-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 7em;
+    
+}
+
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    
+    margin-top: 35px;
+    
+}
+
+.menu-item {
+    list-style-type: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 1em;
+    font-family: $playfair-display;
+
+    @media only screen and (max-width: 1240px) {
+        font-size: .8em;
+    }
+
+    
+   
+}
+
+.menu--main {
+   
+    text-transform: uppercase;
+
+    a{
+        color:$color-grey !important;
+        &:hover{ color:#000 !important;}
+      }
+}
+
+
+#block-adchallenge-branding {
+    margin-top: 35px;
+    margin-left: 6em;
+}
+
+.site-logo img {
+    width: 55%;
+    height: 55%;
+    
+}
+
+#block-homepage-top-content {
+    
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 50%;
+        text-align: left;
+       margin-left: 25vw;
+       margin-top: 10em;
+        max-height: 10em;
+        max-width: 75vw;
+       
+        align-items: center;
+        margin-bottom: 5em;
+}
+
